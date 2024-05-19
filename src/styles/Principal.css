@@ -1,0 +1,506 @@
+.f-img-ini {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 7.5%;
+}
+
+.user {
+  position: absolute;
+  top: 35px;
+  left: 825px;
+}
+
+.cerrar {
+  position: absolute;
+  top: 25px;
+  right: 170px;
+  width: 170px;
+  height: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  font-weight: 400;
+  border-color: black;
+  border-style: solid;
+  transition: all .3s;
+}
+
+.cerrar:hover {
+  background-color: white;
+  border-color: black;
+  color: black;
+  cursor: pointer;
+  scale: 1.01;
+}
+
+.blood {
+  position: absolute;
+  top: 95px;
+  right: 170px;
+  height: 600px;
+  width: 460px;
+  background-color: #F9F9F9;
+}
+
+.soli {
+  position: absolute;
+  top: 540px;
+  right: 240px;
+  width: 200px;
+  height: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #B03D47;
+  font-weight: 400;
+  border-color: #B03D47;
+  border-style: solid;
+  transition: all .3s;
+}
+
+.soli:hover {
+  background-color: #F9F9F9;
+  border-color: #B03D47;
+  color: #B03D47;
+  cursor: pointer;
+  scale: 1.01;
+}
+
+.pos {
+  position: absolute;
+  top: 540px;
+  right: 15px;
+  width: 210px;
+  height: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #B03D47;
+  font-weight: 400;
+  border-color: #B03D47;
+  border-style: solid;
+  transition: all .3s;
+}
+
+.pos:hover {
+  background-color: #F9F9F9;
+  border-color: #B03D47;
+  color: #B03D47;
+  cursor: pointer;
+  scale: 1.01;
+}
+
+.noti {
+  position: absolute;
+  top: 95px;
+  left: 100px;
+  height: 320px;
+  width: 680px;
+  background-color: white;
+}
+
+.alert {
+  position: absolute;
+  top: 200px;
+  width: 680px;
+  background-color: #B03D47;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  border-color: #B03D47;
+  border-style: solid;
+  padding: 20px 20px 20px 20px;
+  transition: all .3s;
+}
+
+.alert:hover {
+  cursor: pointer;
+  scale: 1.01;
+}
+
+.centrosd {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  height: 245px;
+  width: 680px;
+  background-color: white;
+}
+
+.hh {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.cd1 {
+  position: absolute;
+  top: 55px;
+  width: 200px;
+  height: 170px;
+}
+
+.cd2 {
+  position: absolute;
+  top: 55px;
+  left: 185px;
+  width: 200px;
+  height: 170px;
+}
+
+.cd3 {
+  position: absolute;
+  top: 55px;
+  left: 370px;
+  width: 200px;
+  height: 170px;
+}
+
+.n2 {
+  position: absolute;
+  top: 100px;
+}
+
+.tipo {
+  position: absolute;
+  top: 20px;
+  right: 240px;
+  width: 200px;
+  height: 200px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+  color: white;
+  background-color: #E5D8C1;
+  border-color: #E5D8C1;
+  border-style: solid;
+  transition: all .3s;
+}
+
+.info {
+  position: absolute;
+  top: 30px;
+  right: 140px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.info p {
+  margin-bottom: 10px;
+}
+
+.info1 {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.info1 p {
+  margin-bottom: 10px;
+}
+
+.t1 .tooltiptext {
+  visibility: hidden;
+  width: 270px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 15px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 210px;
+  right: 450px;
+}
+
+.t1:hover .tooltiptext {
+  visibility: visible;
+}
+
+.t2 {
+  position: absolute;
+  left: 108px;
+}
+
+.t2 .tooltiptext {
+  visibility: hidden;
+  width: 270px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 15px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 210px;
+  right: -10px;
+}
+
+.t2:hover .tooltiptext {
+  visibility: visible;
+}
+
+.t3 {
+  position: absolute;
+  left: 216px;
+}
+
+.t3 .tooltiptext {
+  visibility: hidden;
+  width: 270px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 15px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 210px;
+  right: -10px;
+}
+
+.t3:hover .tooltiptext {
+  visibility: visible;
+}
+
+.t4 {
+  position: absolute;
+  left: 325px;
+}
+
+.t4 .tooltiptext {
+  visibility: hidden;
+  width: 270px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 15px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 210px;
+  right: -10px;
+}
+
+.t4:hover .tooltiptext {
+  visibility: visible;
+}
+
+.t5 {
+  top: 110px;
+  position: absolute;
+  left: 0;
+}
+
+.t5 .tooltiptext {
+  visibility: hidden;
+  width: 270px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 15px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 190px;
+  right: -10px;
+}
+
+.t5:hover .tooltiptext {
+  visibility: visible;
+}
+
+.t6 {
+  top: 110px;
+  position: absolute;
+  left: 108px;
+}
+
+.t6 .tooltiptext {
+  visibility: hidden;
+  width: 270px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 15px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 190px;
+  right: -10px;
+}
+
+.t6:hover .tooltiptext {
+  visibility: visible;
+}
+
+.t7 {
+  top: 110px;
+  position: absolute;
+  left: 216px;
+}
+
+.t7 .tooltiptext {
+  visibility: hidden;
+  width: 270px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 15px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  right: -10px;
+}
+
+.t7:hover .tooltiptext {
+  visibility: visible;
+}
+
+.t8 {
+  top: 110px;
+  position: absolute;
+  left: 325px;
+}
+
+.t8 .tooltiptext {
+  visibility: hidden;
+  width: 270px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 15px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 185px;
+  right: -10px;
+}
+
+.t8:hover .tooltiptext {
+  visibility: visible;
+}
+
+.color-a {
+  background-color: #BCDDF1;
+  border-color: #BCDDF1;
+}
+
+.color-b {
+  background-color: #44A3CA;
+  border-color: #44A3CA;
+}
+
+.color-c {
+  background-color: #D5303B;
+  border-color: #D5303B;
+}
+
+.color-d {
+  background-color: #ED752F;
+  border-color: #ED752F;
+}
+
+.color-e {
+  background-color: #834484;
+  border-color: #834484;
+}
+
+.color-f {
+  background-color: #8567A5;
+  border-color: #8567A5;
+}
+
+.color-g {
+  background-color: #E5D8C1;
+  border-color: #E5D8C1;
+}
+
+.color-h {
+  background-color: #CABDAF;
+  border-color: #CABDAF;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.info-p {
+  position: relative;
+  top: 470px;
+  left: 15px;
+  width: 430px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+}
+
+.info-d {
+  position: absolute;
+  top: 180px;
+  left: 245px;
+  width: 190px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.green-dot {
+  background-color: green;
+}
+
+.red-dot {
+  background-color: red;
+}

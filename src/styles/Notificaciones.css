@@ -1,0 +1,135 @@
+.cc {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 680px;
+    background-color: #F9F9F9;
+}
+
+.ff {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    background-color: black;
+    line-height: 30px;
+}
+
+.txt {
+    position: absolute;
+    top: 6px;
+    left: 110px;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nombre {
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dir {
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: black;
+}
+
+.hora {
+    position: relative;
+    width: max-content;
+    top: 27px;
+    left: 500px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ok {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 84px;
+    width: 84px;
+    color: white;
+    border-color: #5BAB76;
+    border-style: solid;
+    background-color: #5BAB76;
+}
+
+.yes {
+    position: absolute;
+    top: 0;
+    right: 90px;
+    height: 84px;
+    width: 84px;
+    color: white;
+    border-color: #8B8B8B;
+    border-style: solid;
+    background-color: #8B8B8B;
+    transition: all .3s;
+}
+
+.yes:hover {
+    border-color: #5BAB76;
+    background-color: #5BAB76;
+    cursor: pointer;
+}
+
+.not {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 84px;
+    width: 84px;
+    color: white;
+    border-color: #666666;
+    border-style: solid;
+    background-color: #666666;
+    transition: all .3s;
+}
+
+.not:hover {
+    border-color: #D5303B;
+    background-color: #D5303B;
+    cursor: pointer;
+}
+
+.img-ok {
+    position: absolute;
+    top: 26px;
+    left: 23px;
+    width: 45%;
+}
+
+.img-ok1 {
+    position: absolute;
+    top: 26px;
+    left: 23px;
+    width: 45%;
+}
+
+.img-not {
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    width: 40%;
+}

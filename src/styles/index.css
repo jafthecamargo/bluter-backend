@@ -1,0 +1,21 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 13px;
+  background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-right: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}

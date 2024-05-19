@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7405caea.css",
+    "main.js": "/static/js/main.c9172a70.js",
+    "static/media/img2.jpg": "/static/media/img2.838c9f06b6f52f80f874.jpg",
+    "static/media/4.jpg": "/static/media/4.8a9be97e8436c8f87d59.jpg",
+    "static/media/img1.jpg": "/static/media/img1.6e38552a3b593d569480.jpg",
+    "static/media/img3.jpg": "/static/media/img3.ba0f9a5276b058afa0aa.jpg",
+    "static/media/fondo.png": "/static/media/fondo.96b1c1ffa6734cabadc2.png",
+    "static/media/angel.jpg": "/static/media/angel.0233d719c8dd9c4851f0.jpg",
+    "static/media/itzel.jpg": "/static/media/itzel.1eaaeb04695599a1daaf.jpg",
+    "static/media/3.jpeg": "/static/media/3.cae1956d517c90e09c9a.jpeg",
+    "static/media/jafthe.jpg": "/static/media/jafthe.ceb8d01a2a5543c91fb3.jpg",
+    "static/media/antonio.jpg": "/static/media/antonio.6b580d2ba33df829d863.jpg",
+    "static/media/1.jpeg": "/static/media/1.898e6d2dff0a8e0fad5d.jpeg",
+    "static/media/2.jpg": "/static/media/2.263a338004957bb7f1a8.jpg",
+    "static/media/firma.png": "/static/media/firma.e314f471349b064abaa8.png",
+    "static/media/bluter.svg": "/static/media/bluter.a36af7808f3550bbb6c2c54477ca9898.svg",
+    "static/media/ok.svg": "/static/media/ok.5633df233f9ca31b3c9d1747be85bb40.svg",
+    "index.html": "/index.html",
+    "static/media/heart.svg": "/static/media/heart.79c3766c7828fa97d616a5de09e1a7b8.svg",
+    "static/media/arrow.svg": "/static/media/arrow.e47d2e62e5f7ead4543be9d7c55b0893.svg",
+    "static/media/not.svg": "/static/media/not.a73767f4bb9e05a5764a9af2135f01f8.svg",
+    "static/media/arrow-left.svg": "/static/media/arrow-left.f331fde8e3bc5647d582ab0786c39296.svg",
+    "main.7405caea.css.map": "/static/css/main.7405caea.css.map",
+    "main.c9172a70.js.map": "/static/js/main.c9172a70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7405caea.css",
+    "static/js/main.c9172a70.js"
+  ]
+}

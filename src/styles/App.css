@@ -1,0 +1,288 @@
+/*************************************************** General ***************************************************/
+
+.d00 {
+  position: relative;
+  height: 100%;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #B03D47;
+}
+
+.f-img {
+  position: absolute;
+  left: 655px;
+  width: 8%;
+  cursor: pointer;
+}
+
+/*************************************************** Barra ***************************************************/
+
+.barra-logo {
+  position: relative;
+  width: 23%;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  left: 100px;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  height: 100px;
+  width: 30%;
+}
+
+a {
+  position: relative;
+  left: 50px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all .3s;
+}
+
+a:hover {
+  scale: 1.02;
+  cursor: pointer;
+}
+
+.iniciasesion {
+  position: absolute;
+  top: 30px;
+  right: 270px;
+  width: 150px;
+  height: 40px;
+  z-index: 2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  font-weight: 400;
+  border-color: white;
+  border-style: solid;
+  transition: all .3s;
+  box-shadow: 10px 10px 64px 10px rgba(0, 0, 0, 0.2)
+}
+
+.iniciasesion:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.registrate {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+  width: 150px;
+  height: 40px;
+  z-index: 2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  font-weight: 400;
+  border-color: black;
+  border-style: solid;
+  transition: all .3s;
+  box-shadow: 10px 10px 64px 10px rgba(0, 0, 0, 0.2)
+}
+
+.registrate:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+
+/*************************************************** App ***************************************************/
+
+.d0 {
+  position: relative;
+  height: 650px;
+  width: 100%;
+  background-color: white;
+}
+
+.d01 {
+  position: relative;
+  top: 130px;
+  left: 100px;
+  width: 450px;
+  height: max-content;
+}
+
+.d02 {
+  position: relative;
+  top: 165px;
+  left: 100px;
+  width: 480px;
+  height: max-content;
+}
+
+.txt1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+
+.img1 {
+  position: absolute;
+  top: 0px;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.boton1 {
+  position: relative;
+  top: 200px;
+  left: 100px;
+  width: 200px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #B03D47;
+  border-color: white;
+  border-style: solid;
+  transition: all .3s;
+}
+
+.boton1:hover {
+  scale: 1.04;
+  cursor: pointer;
+}
+
+.arrow {
+  position: relative;
+  top: -23px;
+  left: 165px;
+  height: 20px;
+}
+
+.d1 {
+  position: relative;
+  height: 650px;
+  width: 100%;
+  background-color: #F9F9F9;
+}
+
+.img2 {
+  position: absolute;
+  top: 0px;
+  width: 30%;
+  height: 100%;
+  left: 0;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.d001 {
+  position: relative;
+  top: 190px;
+  left: 580px;
+  width: 720px;
+  height: max-content;
+}
+
+.txt2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4B4B4B;
+}
+
+.heart {
+  position: relative;
+  top: -115px;
+  left: 360px;
+  width: 3%;
+}
+
+.firma {
+  position: relative;
+  top: -10px;
+  left: 410px;
+  width: 39%;
+}
+
+.d0001 {
+  position: relative;
+  top: 70px;
+  left: 620px;
+  width: 100px;
+  height: max-content;
+}
+
+.div1 {
+  position: relative;
+  top: 130px;
+  left: 150px;
+  width: 0%;
+}
+
+.div2 {
+  position: relative;
+  top: 130px;
+  left: 450px;
+  width: 0%;
+}
+
+.div3 {
+  position: relative;
+  top: 130px;
+  left: 730px;
+  width: 0%;
+}
+
+.div4 {
+  position: relative;
+  top: 130px;
+  left: 1020px;
+  width: 0%;
+}
+
+.d2 {
+  position: relative;
+  height: 650px;
+  width: 100%;
+  background-color: white;
+}
+
+.d-foot {
+  position: absolute;
+  bottom: 50px;
+  align-items: center;
+  padding: 0 0 0 0;
+  height: 10%;
+  width: 100%;
+}
+
+.f-text {
+  position: absolute;
+  left: 490px;
+  bottom: 0;
+  font-size: 13px;
+  font-weight: 300;
+  color: #636363;
+}
+
+.f-policies {
+  position:absolute;
+  left: 792px;
+  bottom: 0;
+  font-size: 13px;
+  font-weight: 300;
+  color: #B03D47;
+  transition: all .3s;
+}
+
+.f-policies:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
